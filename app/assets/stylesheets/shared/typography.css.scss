@@ -1,13 +1,5 @@
 @import 'variables';
 
-a:hover {
-	background: none;
-}
-
-a.btn-danger:visited {
-	color: $white;
-}
-
-.owed {
-	color: $red;
+body {
+	font-family: $serifFontFamily;
 }

@@ -13,7 +13,7 @@ describe "Navigation" do
   
   describe "Main Nav" do
     it "has a country club sandwiches link" do
-      within(".navbar") do
+      within("#header") do
         page.should have_link("Country Club Sandwiches")
       end
       click_link("Country Club Sandwiches")
@@ -21,7 +21,7 @@ describe "Navigation" do
     end
     
     it "has a der link" do
-      within(".navbar") do
+      within("#header") do
         page.should have_link("Der Party")
       end
       click_link("Der Party")
@@ -29,7 +29,7 @@ describe "Navigation" do
     end
     
     it "has a der link" do
-      within(".navbar") do
+      within("#header") do
         page.should have_link("Sundown at High Noon")
       end
       click_link("Sundown at High Noon")
