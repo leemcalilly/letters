@@ -1,0 +1,22 @@
+<header id="header">
+	<%= link_to app_name, root_path, :class => "brand" %>
+	
+	<div class="navbar navbar-fixed-top">
+		<div class="navbar-inner">
+			<div class="container">
+		     <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+		       <span class="icon-bar"></span>
+		       <span class="icon-bar"></span>
+		       <span class="icon-bar"></span>
+		     </a>
+		    <div class="nav-collapse">
+		       <ul class="nav">
+		       	<li><%= link_to "The Country Club Sandwiches", country_club_sandwiches_path %></li>
+						<li><%= link_to "Der Party", der_party_path %></li>
+						<li><%= link_to "Sundown at High Noon", sundown_at_high_noon_path %></li>
+		       </ul>
+		    </div><!--/.nav-collapse -->
+			</div><!-- container -->
+		</div><!-- navbar-inner -->
+	</div><!--  navbar navbar-fixed-top -->
+</header>
