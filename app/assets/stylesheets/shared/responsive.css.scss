@@ -1,46 +1,8 @@
 @import 'shared/variables';
 
-/* Landscape phones and down */
-@media (max-width: 480px) {
-
-	#about,
-	#country_club_sandwiches,
-	#der_party,
-	#sundown_at_high_noon {
-		#header {
-			
-			ul {
-				margin-top: 45px;
-			}
-			
-			.letters {
-				position: static;
-			}
-		}
-	}
-		
-}/* end media query */
-
-
-/* Landscape phone to portrait tablet */
-@media (min-width: 481px) and (max-width: 767px) {
-
-}/* end media query */
-
-
-/* Portrait tablet to landscape and desktop */
-@media (min-width: 768px) and (max-width: 979px) {
-
-}/* end media query */
-
-
-/* Small Laptops */
-@media (min-width: 980px) and (max-width: 1249px) {
-		
-}/* end media query */
-
-
-/* Large desktop */
-@media (min-width: 1250px) {
-	
-}/* end media query */
+@media screen and (max-width: 768px){
+	.title { font-size: 18px; }
+}
+@media screen and (max-width: 320px){
+	.titles { font-size: 9px; }
+}
