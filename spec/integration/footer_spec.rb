@@ -6,6 +6,15 @@ describe "Footer" do
   end
   
   describe "navigation" do
+   it "has a home page link" do
+      within("#footer") do
+        page.should have_link("Home")
+      end
+      click_link("Home")
+      current_path == '/'      
+    end
+      
+      
     it "has an about page link" do
       within("#footer") do
         page.should have_link("About This Project")

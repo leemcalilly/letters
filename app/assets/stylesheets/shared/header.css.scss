@@ -1,16 +1,53 @@
 @import 'variables';
 
 #header {
-	text-align: center;
-	
-	ul,
+	text-align: left;
+
 	ul > li {
-	  float:none;
-	  display:inline-block;
-	  *display:inline; /* ie7 fix */
-	  *zoom:1; /* hasLayout ie7 trigger */
-	  vertical-align: top;
-		margin-right: 15px;
-		margin-left: 15px;
+		position: relative;
+		z-index: 1000;
+		display: inline-block;
+		*display: inline; /* ie7 fix */
+		*zoom: 1; /* hasLayout ie7 trigger */
+		vertical-align: top;
+		margin-right: 30px;
+	}
+}
+
+#about,
+#country_club_sandwiches,
+#der_party,
+#sundown_at_high_noon {
+	
+	.rotation {
+		position: absolute;
+	}
+	
+	.letters {
+		display: inline;
+		position: relative;
+		top: -40px;
+		left: 300px;
+		opacity: 1;
+	}
+	
+	.sandwiches {
+		display: none;
+	}
+	
+	.party {
+		display: none;
+	}
+	
+	.club {
+		display: none;
+	}
+	
+	.sundown {
+		display: none;
+	}
+	
+	.country {
+		display: none;
 	}
 }

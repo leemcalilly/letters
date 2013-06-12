@@ -1,12 +1,25 @@
-<header id="header">
+<header id="header">	
 	<div class="container">
-		<h1><%= link_to app_name, root_path, :class => "brand" %></h1>
+		<div class="title_wrap">
+			<h1 class="title brand">
+		    The Crooked
+		    <div class="rotation rotation-1">
+					<span class="letters">Letters</span>
+					<span class="sandwiches">Sandwiches</span>
+					<span class="party">Party</span>
+					<span class="club">Club</span>
+					<span class="sundown">Sundown</span>
+					<span class="country">Country</span>
+		    </div>
+	    </h1>
+		</div>
+		
     <nav>
-       <ul class="unstyled">
-       	<li><%= link_to "The Country Club Sandwiches", country_club_sandwiches_path %></li>
-				<li><%= link_to "Der Party", der_party_path %></li>
+			<ul class="unstyled">
 				<li><%= link_to "Sundown at High Noon", sundown_at_high_noon_path %></li>
-       </ul>
+				<li><%= link_to "Der Party", der_party_path %></li>
+				<li><%= link_to "The Country Club Sandwiches", country_club_sandwiches_path %></li>
+			</ul>
     </nav>
 		<hr>
 	</div><!-- container -->

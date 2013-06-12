@@ -7,7 +7,7 @@ describe "Navigation" do
   
   it "has branding" do
     within("#header") do
-      page.should have_link("The Crooked Letters")
+      page.should have_content("The Crooked Letters")
     end
   end
   
