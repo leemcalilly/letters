@@ -17,9 +17,9 @@ describe "Footer" do
       
     it "has an about page link" do
       within("#footer") do
-        page.should have_link("About This Project")
+        page.should have_link("About TCL")
       end
-      click_link("About This Project")
+      click_link("About TCL")
       current_path == '/about'      
     end
     
@@ -51,7 +51,7 @@ describe "Footer" do
   describe "Copyright" do
     it "has a credit for the songs" do
       within("#footer") do
-        page.should have_content("All songs and video by The Crooked Letters.")
+        page.should have_content("All songs, video, photography, and artwork by The Crooked Letters.")
       end
     end
     
