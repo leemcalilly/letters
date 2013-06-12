@@ -10,7 +10,7 @@
 		*display: inline; /* ie7 fix */
 		*zoom: 1; /* hasLayout ie7 trigger */
 		vertical-align: top;
-		margin-right: 30px;
+		margin-right: 26px;
 	}
 }
 
@@ -31,22 +31,10 @@
 		opacity: 1;
 	}
 	
-	.sandwiches {
-		display: none;
-	}
-	
-	.party {
-		display: none;
-	}
-	
-	.club {
-		display: none;
-	}
-	
-	.sundown {
-		display: none;
-	}
-	
+	.sandwiches,
+	.party,
+	.club,
+	.sundown,
 	.country {
 		display: none;
 	}

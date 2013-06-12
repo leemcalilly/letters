@@ -1,8 +1,35 @@
 @import 'shared/variables';
 
 @media screen and (max-width: 768px){
-	.title { font-size: 18px; }
+	.title { 
+		font-size: 18px;
+	}
+	
+	#home .rotation {
+		text-indent: 13px;
+	}
+	
+	#about .letters,
+	#country_club_sandwiches .letters,
+	#der_party .letters,
+	#sundown_at_high_noon .letters {
+		left: 145px;
+	}
 }
+
 @media screen and (max-width: 320px){
-	.titles { font-size: 9px; }
+	.titles { 
+		font-size: 9px; 
+	}
+	
+	#home .rotation {
+		text-indent: 13px;
+	}
+	
+	#about .letters,
+	#country_club_sandwiches .letters,
+	#der_party .letters,
+	#sundown_at_high_noon .letters {
+		left: 145px;
+	}
 }
