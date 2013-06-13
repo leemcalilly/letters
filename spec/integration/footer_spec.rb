@@ -17,9 +17,9 @@ describe "Footer" do
       
     it "has an about page link" do
       within("#footer") do
-        page.should have_link("About TCL")
+        page.should have_link("About")
       end
-      click_link("About TCL")
+      click_link("About")
       current_path == '/about'      
     end
     
