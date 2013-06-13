@@ -2,6 +2,18 @@
 
 #header {
 	text-align: left;
+	
+	h1 {
+		color: $wet_asphalt;
+		
+		a {
+			text-decoration: none;
+		}
+		
+		a:hover {
+			text-decoration: none;
+		}
+	}	
 
 	ul > li {
 		position: relative;
