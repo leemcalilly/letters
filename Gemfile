@@ -15,6 +15,7 @@ gem 'turbolinks', '~> 1.2.0'
 gem 'jbuilder', '~> 1.0.1'
 gem 'rb-fsevent', '~> 0.9.3'
 gem 'bootstrap-sass', '~> 2.3.1'
+gem 'newrelic_rpm'
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
